@@ -1,0 +1,32 @@
+// This is a simple file in B-Minor
+/* What does it do with a * alone in a comment?*/
+/* A Multi-line
+test for my scanner */
+x: integer;
+y: integer = 123;
+b: boolean = false;
+c: char    = 'q';
+s: string  = "hello world\n";
+
+square: function integer ( x: integer ) ; 
+
+//square: function integer ( x: integer ) = {return ;  }; 
+//square: function integer ( x: integer ) = {return x;} ; 
+square: function integer ( x: integer ) = {return x^2;} 
+
+main: function integer (x:integer) =
+{
+ puts("hello world");
+ // puts(x);
+ //puts();
+
+ i = size;
+ i < 1 ;
+ i++ ; 
+ for( i=0;i<size;i++) {
+   print i ;
+ }
+}
+  
+
+ 
